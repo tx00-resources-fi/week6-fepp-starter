@@ -8,7 +8,7 @@ const SignupComponent = ({ setIsAuthenticated }) => {
 
   const handleSignup = async () => {
     try {
-      const response = await fetch("/api/users/signup", { 
+      const response = await fetch("/api/users/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -31,7 +31,7 @@ const SignupComponent = ({ setIsAuthenticated }) => {
   };
 
   return (
-    <div>
+    <div className="form-container">
       <h2>Signup</h2>
       <label>
         email:

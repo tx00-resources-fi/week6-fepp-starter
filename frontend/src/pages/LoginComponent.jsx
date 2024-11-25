@@ -31,10 +31,10 @@ const LoginComponent = ({ setIsAuthenticated }) => {
   };
 
   return (
-    <div>
+    <div className="form-container">
       <h2>Login</h2>
       <label>
-      email:
+        email:
         <input
           type="text"
           value={email}

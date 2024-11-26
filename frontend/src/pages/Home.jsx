@@ -11,7 +11,7 @@ function Home() {
         libero.
       </p>
       <img
-        src="https://via.placeholder.com/400" // Replace with an actual image URL
+        src="https://placehold.co/400" // Replace with an actual image URL
         alt="Placeholder"
         style={{ maxWidth: "100%", height: "auto" }}
       />
